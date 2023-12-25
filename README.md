@@ -1,2 +1,2 @@
 # face-api
-A react and nodejs project that uses clarifai apis to find the number of people in an image, their gender, age, demographics, etc.
+A react and nodejs project that uses the clarifaiapi to detect faces in an image and determine the age, gender, demographics and which celebrity the face closely matches to. The users need to register first to access the website. Used passport package for the registration and signin. Used Node.js runtime environment, Express.js and various other npm packages for creating the backend. Used React, react-router and several other packages for creating the frontend. Used Postgresql for managing the database.
