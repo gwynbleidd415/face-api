@@ -1,0 +1,26 @@
+/* body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 77%,
+    rgba(163, 0, 0, 1) 100%
+  );
+} */
+.backgroundAnimation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+button:disabled {
+  text-decoration: none;
+  transition: none;
+  background-color: #333333;
+}
+
+button:disabled:hover {
+  cursor: default;
+}
